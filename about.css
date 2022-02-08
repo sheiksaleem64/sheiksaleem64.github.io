@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --font: 'Montserrat', sans-serif;
+}
+body {
+  background-color: #f4faf2;
+}
+img {
+  width: 30%;
+  margin-left: 450px;
+}
+.isb img {
+  width: 100%;
+}
+.text {
+  font: var(--font);
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 400px;
+  font-family: 'Work Sans', sans-serif;
+}
+.text1 {
+  font: var(--font);
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 520px;
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 30px;
+}
+.desc {
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 20px;
+  padding: 40px;
+  line-height: 1.8;
+  font-size: 15px;
+}
+.isb_desc {
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 20px;
+  padding: 40px;
+  line-height: 1.8;
+}
+.credly {
+  width: 10%;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.trail {
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 170px;
+  flex: 1;
+}
+.cred {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+.certificate {
+  font-family: 'Work Sans', sans-serif;
+  color: blue;
+}

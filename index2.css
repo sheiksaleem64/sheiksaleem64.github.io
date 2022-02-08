@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+  scroll-behavior: smooth;
+}
+
+/*Why hire me */
+
+.hire_me .heading {
+  font-size: 2.5em;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.hire_me .heading::before {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 80px;
+  height: 8px;
+  background: var(--hover-bg);
+  z-index: -1;
+}
+.hire_me .heading {
+  color: var(--sec-font-color);
+}
+
+.hire_me .text {
+  color: var(--sec-font-color);
+}
